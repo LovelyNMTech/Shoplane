@@ -20,7 +20,7 @@ let productList = [
       ],
       "isAccessory": false,
       "brand": "United Colors of Benetton",
-      "price": 2599
+      "price": Rs 2599
     },
     {
       "id": "2",
@@ -41,7 +41,7 @@ let productList = [
       ],
       "isAccessory": false,
       "brand": "Puma",
-      "price": 7999
+      "price": Rs 7999
     },
     {
       "id": "3",
@@ -65,7 +65,7 @@ let productList = [
       ],
       "isAccessory": false,
       "brand": "Hush Puppies",
-      "price": 6999
+      "price": Rs 6999
     },
     {
       "id": "4",
@@ -88,7 +88,7 @@ let productList = [
       ],
       "isAccessory": false,
       "brand": "BARESKIN",
-      "price": 9999
+      "price": Rs 9999
     },
     {
       "id": "5",
@@ -111,7 +111,7 @@ let productList = [
       ],
       "isAccessory": false,
       "brand": "SASSAFRAS",
-      "price": 5200
+      "price": Rs 5200
     },
     {
       "id": "6",
@@ -133,7 +133,7 @@ let productList = [
       ],
       "isAccessory": true,
       "brand": "Apple",
-      "price": 31999
+      "price": Rs 31999
     },
     {
       "id": "7",
@@ -154,7 +154,7 @@ let productList = [
       ],
       "isAccessory": true,
       "brand": "Fastrack",
-      "price": 1999
+      "price": Rs 1999
     },
     {
       "id": "8",
@@ -175,7 +175,7 @@ let productList = [
       ],
       "isAccessory": true,
       "brand": "Samsung",
-      "price": 9990
+      "price": Rs 9990
     },
     {
       "id": "9",
@@ -196,7 +196,7 @@ let productList = [
       ],
       "isAccessory": true,
       "brand": "Samsung",
-      "price": 13990
+      "price": Rs 13990
     },
     {
       "id": "10",
@@ -217,7 +217,7 @@ let productList = [
       ],
       "isAccessory": true,
       "brand": "Apple",
-      "price": 14999
+      "price": Rs 14999
     }
   ];
 
