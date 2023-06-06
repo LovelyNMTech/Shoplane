@@ -95,9 +95,6 @@ h5{
     font-weight: bold;
     padding-left: 15px;
 }
-.container{
-    border:2px solid #009688;
-}
 
 @media screen and (max-width:500px) {
     .container{
