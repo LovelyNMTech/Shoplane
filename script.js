@@ -20,7 +20,7 @@ let productList = [
       ],
       "isAccessory": false,
       "brand": "United Colors of Benetton",
-      "price": Rs 2599
+      "price": "RS 2599"
     },
     {
       "id": "2",
@@ -41,7 +41,7 @@ let productList = [
       ],
       "isAccessory": false,
       "brand": "Puma",
-      "price": Rs 7999
+      "price": "RS 7999"
     },
     {
       "id": "3",
@@ -65,7 +65,7 @@ let productList = [
       ],
       "isAccessory": false,
       "brand": "Hush Puppies",
-      "price": Rs 6999
+      "price": "RS 6999"
     },
     {
       "id": "4",
@@ -88,7 +88,7 @@ let productList = [
       ],
       "isAccessory": false,
       "brand": "BARESKIN",
-      "price": Rs 9999
+      "price": "RS 9999"
     },
     {
       "id": "5",
@@ -111,7 +111,7 @@ let productList = [
       ],
       "isAccessory": false,
       "brand": "SASSAFRAS",
-      "price": Rs 5200
+      "price": "RS 5200"
     },
     {
       "id": "6",
@@ -133,7 +133,7 @@ let productList = [
       ],
       "isAccessory": true,
       "brand": "Apple",
-      "price": Rs 31999
+      "price": "RS 31999"
     },
     {
       "id": "7",
@@ -154,7 +154,7 @@ let productList = [
       ],
       "isAccessory": true,
       "brand": "Fastrack",
-      "price": Rs 1999
+      "price": "RS 1999"
     },
     {
       "id": "8",
@@ -175,7 +175,7 @@ let productList = [
       ],
       "isAccessory": true,
       "brand": "Samsung",
-      "price": Rs 9990
+      "price": "RS 9990"
     },
     {
       "id": "9",
@@ -196,7 +196,7 @@ let productList = [
       ],
       "isAccessory": true,
       "brand": "Samsung",
-      "price": Rs 13990
+      "price": "RS 13990"
     },
     {
       "id": "10",
@@ -217,7 +217,7 @@ let productList = [
       ],
       "isAccessory": true,
       "brand": "Apple",
-      "price": Rs 14999
+      "price": "RS 14999"
     }
   ];
 
@@ -232,8 +232,8 @@ productList.forEach(function(value,index,list){
 
     cardParent.appendChild(imgcloth);
 
-let cardinfo=document.createElement('div');
-cardinfo.className='details';
+    let cardinfo=document.createElement('div');
+    cardinfo.className='details';
 
     let title=document.createElement('h3');
     title.innerHTML=value.name;
@@ -241,7 +241,7 @@ cardinfo.className='details';
     let brand=document.createElement('h4');
     brand.innerHTML=value.brand;
 
-    let price=document.createElement('h5');
+    let price = document.createElement('h5');
     price.innerHTML=value.price;
 
     cardinfo.appendChild(title);
@@ -255,6 +255,7 @@ cardinfo.className='details';
 
     if(value.isAccessory)
     {
+
         cloth.appendChild(cardParent);
         
     }
